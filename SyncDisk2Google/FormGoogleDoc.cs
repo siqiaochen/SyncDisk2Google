@@ -21,7 +21,7 @@ namespace SyncDisk2Google
         public FormGoogleDoc()
         {
             InitializeComponent();
-            if (File.Exists("./Steup.xml"))
+            if (File.Exists("./Setup.xml"))
             {
                 using (FileStream fstream = File.Open("./Setup.xml", FileMode.Open))
                 {
